@@ -1,0 +1,2 @@
+GET http://localhost:8060/produto/
+Accept: application/json
