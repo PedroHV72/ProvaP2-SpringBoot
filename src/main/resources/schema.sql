@@ -11,5 +11,5 @@ CREATE TABLE produto (
      fotoUrl                   VARCHAR(1000),
      precoAntigo               FLOAT,
      preco                     FLOAT,
-     FOREIGN KEY (parcelaId)   REFERENCES parcela(id),
+     parcela_id                INT           NOT NULL
 );

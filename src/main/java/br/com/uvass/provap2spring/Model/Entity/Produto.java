@@ -7,6 +7,7 @@ public class Produto {
     private Float oldPrice;
     private Float price;
     private String description;
+    private Integer parcela_id;
     private Parcela parcela;
 
     public Integer getId() {
@@ -55,6 +56,14 @@ public class Produto {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public Integer getParcela_id() {
+        return parcela_id;
+    }
+
+    public void setParcela_id(Integer parcela_id) {
+        this.parcela_id = parcela_id;
     }
 
     public Parcela getParcela() {
